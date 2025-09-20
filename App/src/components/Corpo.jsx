@@ -1,4 +1,11 @@
-export default function Corpo({children}){
+import Dados from "./Dados"
+export default function Corpo(){
+    const cnl=()=>{
+        return 'CFB cursos'
+    }
+    const somar = (n1, n2)=>{
+        return n1 + n2
+    }
     return(
         <main 
         style={{
@@ -11,7 +18,7 @@ export default function Corpo({children}){
             borderRadius:'10px',
         }}>
             <h1>Título da página</h1>
-            {children}
+            <Dados canal={cnl} youtube='youtube.com' curso='React' somar={somar}/>
         </main>
     )
 }
