@@ -1,4 +1,4 @@
-export default function Corpo(props){
+export default function Corpo({children}){
     return(
         <main 
         style={{
@@ -11,7 +11,7 @@ export default function Corpo(props){
             borderRadius:'10px',
         }}>
             <h1>Título da página</h1>
-            {props.children}
+            {children}
         </main>
     )
 }

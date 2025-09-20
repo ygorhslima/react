@@ -6,7 +6,7 @@ function App() {
     <section>
       <Header/>
       <Corpo>
-        <Dados canal='' youtube='' curso=''/>
+        <Dados canal='CFB cursos' youtube='youtube.com' curso='React'/>
       </Corpo>
     </section>
   )
