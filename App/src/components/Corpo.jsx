@@ -1,4 +1,4 @@
-import VerificarHora from "./VerificarHora"
+import Formulario from "./Formulario"
 
 
 const mainEstilo = {
@@ -9,12 +9,13 @@ const mainEstilo = {
     margin:'10px auto 10px auto',
     padding:'10px',
     borderRadius:'10px',
+    color:'black'
 }
 
 export default function Corpo(){
     return(
         <main style={mainEstilo}>
-            <VerificarHora/>       
+            <Formulario/>
         </main>
     )
 }
