@@ -4,9 +4,7 @@ function App() {
   return (
     <section>
       <Header/>
-      <Corpo>
-        
-      </Corpo>
+      <Corpo/>
     </section>
   )
 }
