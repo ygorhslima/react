@@ -1,5 +1,4 @@
-import Formulario from "./Formulario"
-
+import FormularioComObjeto from "./FormularioComObjeto"
 
 const mainEstilo = {
     backgroundColor:'white',
@@ -15,7 +14,7 @@ const mainEstilo = {
 export default function Corpo(){
     return(
         <main style={mainEstilo}>
-            <Formulario/>
-        </main>
+            <FormularioComObjeto/>
+        </main> 
     )
 }
